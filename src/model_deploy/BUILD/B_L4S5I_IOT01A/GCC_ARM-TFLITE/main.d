@@ -1,7 +1,12 @@
 BUILD/B_L4S5I_IOT01A/GCC_ARM-TFLITE/main.o: main.cpp \
- BUILD/B_L4S5I_IOT01A/GCC_ARM-TFLITE/mbed_config.h config.h \
- magic_wand_model_data.h mbed_rpc/mbed_rpc/mbed_rpc.h \
- mbed_rpc/mbed_rpc/rpc.h /home/ee2405/ee2405/mbed-os/mbed.h \
+ BUILD/B_L4S5I_IOT01A/GCC_ARM-TFLITE/mbed_config.h \
+ accelerometer_handler.h tensorflowlite_mbed/tensorflow/lite/c/common.h \
+ tensorflowlite_mbed/tensorflow/lite/micro/micro_error_reporter.h \
+ tensorflowlite_mbed/tensorflow/lite/core/api/error_reporter.h \
+ tensorflowlite_mbed/tensorflow/lite/micro/compatibility.h \
+ tensorflowlite_mbed/tensorflow/lite/micro/debug_log.h \
+ tensorflowlite_mbed/tensorflow/lite/micro/debug_log_numbers.h config.h \
+ magic_wand_model_data.h /home/ee2405/ee2405/mbed-os/mbed.h \
  /home/ee2405/ee2405new/mbed-os-build2/mbed-os/platform/include/platform/mbed_version.h \
  /home/ee2405/ee2405new/mbed-os-build2/mbed-os/rtos/include/rtos/rtos.h \
  /home/ee2405/ee2405new/mbed-os-build2/mbed-os/rtos/include/rtos/internal/mbed_rtos_storage.h \
@@ -323,23 +328,19 @@ BUILD/B_L4S5I_IOT01A/GCC_ARM-TFLITE/main.o: main.cpp \
  /home/ee2405/ee2405new/mbed-os-build2/mbed-os/hal/include/hal/mpu_api.h \
  /home/ee2405/ee2405new/mbed-os-build2/mbed-os/platform/include/platform/ScopedRamExecutionLock.h \
  /home/ee2405/ee2405new/mbed-os-build2/mbed-os/platform/include/platform/mbed_stats.h \
+ mbed_rpc/mbed_rpc/mbed_rpc.h mbed_rpc/mbed_rpc/rpc.h \
  mbed_rpc/mbed_rpc/Arguments.h \
  /home/ee2405/ee2405new/mbed-os-build2/mbed-os/connectivity/mbedtls/include/mbedtls/platform.h \
  mbed_rpc/mbed_rpc/RPCVariable.h mbed_rpc/mbed_rpc/RPCFunction.h \
- mbed_rpc/mbed_rpc/RpcClasses.h 4dgl-ulcd-se/uLCD_4DGL.h \
- /home/ee2405/ee2405new/mbed-os-build2/mbed-os/platform/include/platform/Stream.h \
- /home/ee2405/ee2405new/mbed-os-build2/mbed-os/platform/include/platform/FileLike.h \
- accelerometer_handler.h tensorflowlite_mbed/tensorflow/lite/c/common.h \
- tensorflowlite_mbed/tensorflow/lite/micro/micro_error_reporter.h \
- tensorflowlite_mbed/tensorflow/lite/core/api/error_reporter.h \
- tensorflowlite_mbed/tensorflow/lite/micro/compatibility.h \
- tensorflowlite_mbed/tensorflow/lite/micro/debug_log.h \
- tensorflowlite_mbed/tensorflow/lite/micro/debug_log_numbers.h \
+ mbed_rpc/mbed_rpc/RpcClasses.h \
  BSP_B-L475E-IOT01/Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_accelero.h \
  BSP_B-L475E-IOT01/Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01.h \
  BSP_B-L475E-IOT01/Drivers/BSP/B-L475E-IOT01/../Components/lsm6dsl/lsm6dsl.h \
  BSP_B-L475E-IOT01/Drivers/BSP/B-L475E-IOT01/../Components/lsm6dsl/../Common/accelero.h \
  BSP_B-L475E-IOT01/Drivers/BSP/B-L475E-IOT01/../Components/lsm6dsl/../Common/gyro.h \
+ 4dgl-ulcd-se/uLCD_4DGL.h \
+ /home/ee2405/ee2405new/mbed-os-build2/mbed-os/platform/include/platform/Stream.h \
+ /home/ee2405/ee2405new/mbed-os-build2/mbed-os/platform/include/platform/FileLike.h \
  wifi_mqtt/MQTTNetwork.h \
  /home/ee2405/ee2405new/mbed-os-build2/mbed-os/connectivity/netsocket/include/netsocket/NetworkInterface.h \
  wifi_mqtt/MQTT/MQTTmbed.h wifi_mqtt/MQTT/MQTTClient.h \
